@@ -59,10 +59,10 @@ const items = [
     path: "/whats-in-my-bag",
     icon: "solar:backpack-outline",
   }, */
-  {
-    name: "Bookmarks",
-    path: "/bookmarks",
-    icon: "solar:bookmark-linear",
-  },
+  // {
+  //   name: "Bookmarks",
+  //   path: "/bookmarks",
+  //   icon: "solar:bookmark-linear",
+  // },
 ];
 </script>
