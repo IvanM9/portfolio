@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2 class="uppercase text-xs font-semibold text-gray-400 mb-6">
-      FEATURED PROEJCTS
+      PROYECTOS DESTACADOS
     </h2>
     <div class="space-y-4">
       <AppProjectCard

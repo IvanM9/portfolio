@@ -1,0 +1,8 @@
+{
+  "name": "Duolearn Programming",
+  "url": "https://github.com/IvanM9/duolearn-programming-server",
+  "description": "API diseñada para servir a la aplicación web que tiene el objetivo de proporcionar ejercicios para el aprendizaje de la programación",
+  "thumbnail": "/projects/hawa.png",
+  "status": "Active",
+  "opensource": true
+}
