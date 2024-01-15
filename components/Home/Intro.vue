@@ -17,5 +17,6 @@ useSeoMeta({
   title: "Iván Manzaba",
   description:
     "Mi nombre es Iván Manzaba y soy un desarrollador de software apasionado por el área del back-end, donde he trabajado con diferentes tecnologías y lenguajes de programación. Me gusta enfrentar nuevos retos y aprender constantemente de las mejores prácticas y tendencias del sector. Mi objetivo es crear soluciones eficientes, escalables y seguras que aporten valor a los usuarios y clientes.",
+  image: "/avatar.jpg",
 });
 </script>

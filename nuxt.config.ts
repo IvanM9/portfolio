@@ -17,12 +17,15 @@ export default defineNuxtConfig({
     pageTransition: { name: "page", mode: "out-in" },
     head: {
       htmlAttrs: {
-        lang: "en",
+        lang: "es",
         class: "h-full",
       },
       bodyAttrs: {
         class: "antialiased bg-gray-50 dark:bg-black min-h-screen",
       },
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/avatar.jpg' }
+      ]
     },
   },
   content: {

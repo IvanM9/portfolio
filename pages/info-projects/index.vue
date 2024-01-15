@@ -13,7 +13,7 @@
 const description =
   "Esta es una lista de los proyectos que he realizado en los últimos años.";
 useSeoMeta({
-  title: "Articles | Fayaz Ahmed",
+  title: "Información de proyectos | Iván Manzaba",
   description,
 });
 
