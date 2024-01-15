@@ -31,7 +31,7 @@ const links = [
   },
   {
     name: "Linkedin",
-    url: "https://www.linkedin.com/in/iv%C3%A1n-manzaba-garc%C3%A9s-1ab312214/",
+    url: "https://www.linkedin.com/in/iván-manzaba",
     icon: "mdi:linkedin",
   },
   {
