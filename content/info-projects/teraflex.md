@@ -15,9 +15,19 @@ Este sistema web ha sido desarrollada como parte del proyecto de vinculaci贸n 鈥
 - PostgreSQL
 - TypeORM
 
-## Repositorios
+---
+
+## Recursos
+
+### Repositorios
 - [Teraflex Backend](https://github.com/IvanM9/teraflex-api)
 - [Teraflex Frontend](https://github.com/Jordanfvc26/TeraFlex)
 
-## Aplicaci贸n desplegada
+### Docker Image
+[Im谩gen de docker hub](https://hub.docker.com/r/imanzabag/teraflex)
+
+### Aplicaci贸n desplegada
 [Teraflex WebApp](https://fyc.uteq.edu.ec/TeraFlex)
+
+### Videos de demostraci贸n
+[Videos desmotrativos y tutoriales](https://www.youtube.com/playlist?list=PL2t9AygoxQ1sy5fBooe5b_QQUznvhfKtz)

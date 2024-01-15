@@ -2,8 +2,6 @@
   <NuxtLink
     class="flex items-end gap-4 group p-2 -m-2 rounded-lg"
     :to="project.url"
-    target="_blank"
-    external
   >
     <div class="max-w-sm">
       <h3 class="text-sm font-medium group-hover:text-primary-600">
