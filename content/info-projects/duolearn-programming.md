@@ -17,5 +17,5 @@ Duolearn Programming es un sistema web que permite a los estudiantes de la carre
 ## Recursos
 
 ### Repositorios
-- [Duolearn Programming Backend](https://github.com/IvanM9/duolearn-programming-server)
-- [Duolearn Programming Frontend](https://github.com/Jordanfvc26/Duolearn-Programming)
+- [Duolearn Programming Back-end repositorio](https://github.com/IvanM9/duolearn-programming-server)
+- [Duolearn Programming Front-end repositorio](https://github.com/Jordanfvc26/Duolearn-Programming)

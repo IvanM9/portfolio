@@ -24,10 +24,10 @@ CarFace es un sistema innovador dado que combina la parte física de la cámara,
 ## Recursos
 
 ### Repositorios
-- [Carface Backend](https://github.com/IvanM9/CarfaceApi)
-- [Carface Frontend](https://github.com/Jordanfvc26/CarFaceWeb)
-- [Carface Mobile](https://github.com/IvanM9/CarFace_App_Mobile)
+- [Carface Back-end repositorio](https://github.com/IvanM9/CarfaceApi)
+- [Carface Front-end repositorio](https://github.com/Jordanfvc26/CarFaceWeb)
+- [Carface Mobile repositorio](https://github.com/IvanM9/CarFace_App_Mobile)
 
 ### Docker Images
-- [Carface Backend](https://hub.docker.com/r/imanzabag/carface_server)
-- [Carface Frontend](https://hub.docker.com/r/imanzabag/carface_web)
+- [Click aquí para ir al repositorio de Carface Backend en Docker Hub](https://hub.docker.com/r/imanzabag/carface_server)
+- [Click aquí para ir al repositorio de Carface Frontend en Docker Hub](https://hub.docker.com/r/imanzabag/carface_web)

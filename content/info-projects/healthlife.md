@@ -17,4 +17,4 @@ HealthLife es un sistema web que está enfocada en cualquier tipo de persona que
 ## Recursos
 
 ### Repositorios
-- [HealthLife project](https://github.com/IvanM9/HealthLife)
+- [HealthLife project repositorio](https://github.com/IvanM9/HealthLife)
