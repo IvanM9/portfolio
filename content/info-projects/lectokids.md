@@ -25,16 +25,18 @@ Los estudiantes pueden disfrutar de una experiencia de aprendizaje interactiva y
 
 ### Creación de lecturas y actividades
 El video es un tutorial de cómo crear una lectura y sus actividades de comprensión lectora, con Inteligencia Artificial Generativa, en la aplicación desarrollada: Lectokids
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J5_iCl_tjNk?si=SI8TMvQ4vUzqy-04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe
+style="width: 100%;  height: 315px;"
+  src="https://www.youtube.com/embed/J5_iCl_tjNk?si=SI8TMvQ4vUzqy-04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ### Ver resultados de las actividades
 Este video es un tutorial de como ver las calificaciones de las actividades de comprensión lectora
-<iframe width="560" height="315" src="https://www.youtube.com/embed/akQ-EATAdbM?si=Oklx3_UFf7FEq7ZD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width: 100%;  height: 315px;" src="https://www.youtube.com/embed/akQ-EATAdbM?si=Oklx3_UFf7FEq7ZD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Realización de la lectura y actividades por parte del estudiante
 Este video es un tutorial de las opciones presentadas al estudiante para que realice las lecturas y actividades de comprensión lectora
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KQtV9S94Du4?si=O571i-RQEG57Wmlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width: 100%;  height: 315px;" src="https://www.youtube.com/embed/KQtV9S94Du4?si=O571i-RQEG57Wmlw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 ## Imágenes del proyecto
