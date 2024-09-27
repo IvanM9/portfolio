@@ -45,3 +45,14 @@ Este video es un tutorial de las opciones presentadas al estudiante para que rea
 ![Imágen3](/projects/lectokids/Imagen3.png)
 ![Imágen4](/projects/lectokids/Imagen4.png)
 ![Imágen5](/projects/lectokids/Imagen5.png)
+
+
+---
+## Skills
+- NodeJS
+- NestJS
+- PrismaORM
+- PostgreSQL
+- GPT-4o-mini
+- Dall-e 3
+- Google Firebase Storage
