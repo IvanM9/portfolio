@@ -11,13 +11,13 @@
 
 <script setup>
 const description =
-  "Esta es una lista de los proyectos que he realizado en los últimos años.";
+	"Esta es una lista de los proyectos que he realizado en los últimos años.";
 useSeoMeta({
-  title: "Información de proyectos | Iván Manzaba",
-  description,
+	title: "Información de proyectos | Iván Manzaba",
+	description,
 });
 
 const { data: articles } = await useAsyncData("all-articles", () =>
-  queryContent("/info-projects").sort({ published: -1 }).find()
+	queryContent("/info-projects").sort({ published: -1 }).find(),
 );
 </script>

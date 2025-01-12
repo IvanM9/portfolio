@@ -13,41 +13,41 @@
 
 <script setup>
 const props = defineProps({
-  label: String,
+	label: String,
 });
 
 const displayText = ref(props.label);
 const charset = "abcdefghijklmnopqrstuvwxyz";
 
 function randomChars(length) {
-  return Array.from(
-    { length },
-    () => charset[Math.floor(Math.random() * charset.length)]
-  ).join("");
+	return Array.from(
+		{ length },
+		() => charset[Math.floor(Math.random() * charset.length)],
+	).join("");
 }
 
 async function scramble(input) {
-  let prefix = "";
-  for (let index = 0; index < input.length; index++) {
-    await new Promise((resolve) => setTimeout(resolve, 50));
-    prefix += input.charAt(index);
-    displayText.value = prefix + randomChars(input.length - prefix.length);
-  }
+	let prefix = "";
+	for (let index = 0; index < input.length; index++) {
+		await new Promise((resolve) => setTimeout(resolve, 50));
+		prefix += input.charAt(index);
+		displayText.value = prefix + randomChars(input.length - prefix.length);
+	}
 }
 
 function startScrambling() {
-  scramble(props.label);
+	scramble(props.label);
 }
 
 const submit = () => {
-  startScrambling();
-  setTimeout(() => console.log("Submitted"), props.label.length * 50);
+	startScrambling();
+	setTimeout(() => console.log("Submitted"), props.label.length * 50);
 };
 
 watch(
-  () => props.label,
-  (newValue) => {
-    displayText.value = newValue;
-  }
+	() => props.label,
+	(newValue) => {
+		displayText.value = newValue;
+	},
 );
 </script>

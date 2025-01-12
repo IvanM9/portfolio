@@ -27,18 +27,18 @@
 
 <script setup>
 defineProps({
-  article: {
-    type: Object,
-    required: true,
-  },
+	article: {
+		type: Object,
+		required: true,
+	},
 });
 
 const getReadableDate = (dateString) => {
-  const date = new Date(dateString);
-  return date.toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "short",
-    day: "numeric",
-  });
+	const date = new Date(dateString);
+	return date.toLocaleDateString("en-US", {
+		year: "numeric",
+		month: "short",
+		day: "numeric",
+	});
 };
 </script>

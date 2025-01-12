@@ -1,8 +1,8 @@
 {
-  "name": "Healthlife",
-  "url": "/info-projects/healthlife",
-  "description": "Aplicación web que está enfocada a la asistencia de planes de nutrición y entrenamientos por parte de nutricionistas y entrenadores personales",
-  "thumbnail": "/projects/sketch-to-ui.png",
-  "status": "Active",
-  "opensource": true
+	"name": "Healthlife",
+	"url": "/info-projects/healthlife",
+	"description": "Aplicación web que está enfocada a la asistencia de planes de nutrición y entrenamientos por parte de nutricionistas y entrenadores personales",
+	"thumbnail": "/projects/sketch-to-ui.png",
+	"status": "Active",
+	"opensource": true
 }

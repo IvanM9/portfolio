@@ -29,15 +29,15 @@ const card = ref(null);
 const letters = ref(null);
 
 const updateLetters = (x, y) => {
-  requestAnimationFrame(() => {
-    letters.value.style.setProperty("--x", `${x}px`);
-    letters.value.style.setProperty("--y", `${y}px`);
-    letters.value.innerText = randomString(600);
-  });
+	requestAnimationFrame(() => {
+		letters.value.style.setProperty("--x", `${x}px`);
+		letters.value.style.setProperty("--y", `${y}px`);
+		letters.value.innerText = randomString(600);
+	});
 };
 
 const handleOnMove = (e) => {
-  const rect = card.value.getBoundingClientRect();
-  updateLetters(e.clientX - rect.left, e.clientY - rect.top);
+	const rect = card.value.getBoundingClientRect();
+	updateLetters(e.clientX - rect.left, e.clientY - rect.top);
 };
 </script>

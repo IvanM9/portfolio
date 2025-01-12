@@ -21,24 +21,24 @@ const target = ref(null);
 const targetIsVisible = useElementVisibility(target);
 
 const props = defineProps({
-  targetNumber: {
-    type: Number,
-    required: true,
-    default: 1234,
-  },
+	targetNumber: {
+		type: Number,
+		required: true,
+		default: 1234,
+	},
 });
 
 const startCounter = () => {
-  const counter = document.querySelector(".animate-counter");
-  counter.animate([{ "--num": 0 }, { "--num": props.targetNumber }], {
-    duration: 1000,
-    easing: "ease-out",
-    fill: "forwards",
-  });
+	const counter = document.querySelector(".animate-counter");
+	counter.animate([{ "--num": 0 }, { "--num": props.targetNumber }], {
+		duration: 1000,
+		easing: "ease-out",
+		fill: "forwards",
+	});
 };
 
 watchOnce(targetIsVisible, () => {
-  startCounter();
+	startCounter();
 });
 </script>
 

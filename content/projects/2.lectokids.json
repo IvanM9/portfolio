@@ -1,8 +1,8 @@
 {
-    "name": "Lectokids",
-    "url": "info-projects/lectokids",
-    "description": "Una aplicación web innovadora para profesores y estudiantes",
-    "thumbnail": "/projects/logspot.png",
-    "status": "WIP",
-    "opensource": false
-  }
+	"name": "Lectokids",
+	"url": "info-projects/lectokids",
+	"description": "Una aplicación web innovadora para profesores y estudiantes",
+	"thumbnail": "/projects/logspot.png",
+	"status": "WIP",
+	"opensource": false
+}

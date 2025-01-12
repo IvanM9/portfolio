@@ -66,16 +66,16 @@
 
 <script setup>
 defineProps({
-  title: String,
-  description: String,
-  showUsageTab: {
-    type: Boolean,
-    default: true,
-  },
-  showCreditTab: {
-    type: Boolean,
-    default: false,
-  },
+	title: String,
+	description: String,
+	showUsageTab: {
+		type: Boolean,
+		default: true,
+	},
+	showCreditTab: {
+		type: Boolean,
+		default: false,
+	},
 });
 
 const tab = ref("preview");

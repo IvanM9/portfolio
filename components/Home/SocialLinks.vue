@@ -24,20 +24,20 @@
 
 <script lang="ts" setup>
 const links = [
-  {
-    name: "GitHub",
-    url: "https://github.com/IvanM9",
-    icon: "mdi:github",
-  },
-  {
-    name: "Linkedin",
-    url: "https://www.linkedin.com/in/iván-manzaba",
-    icon: "mdi:linkedin",
-  },
-  {
-    name: "Telegram",
-    url: "https://t.me/mauriciom27",
-    icon: "mdi:telegram",
-  },
+	{
+		name: "GitHub",
+		url: "https://github.com/IvanM9",
+		icon: "mdi:github",
+	},
+	{
+		name: "Linkedin",
+		url: "https://www.linkedin.com/in/iván-manzaba",
+		icon: "mdi:linkedin",
+	},
+	{
+		name: "Telegram",
+		url: "https://t.me/mauriciom27",
+		icon: "mdi:telegram",
+	},
 ];
 </script>

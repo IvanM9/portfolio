@@ -21,8 +21,8 @@ const { slug } = route.params;
 //   articleAuthor: "Fayaz Ahmed",
 // });
 useSeoMeta({
-  title: `${slug} | Iván Manzaba`,
-  // description,
+	title: `${slug} | Iván Manzaba`,
+	// description,
 });
 </script>
 <style>

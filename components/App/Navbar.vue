@@ -37,24 +37,24 @@
 </template>
 
 <script setup>
-import { useFixedHeader } from 'vue-use-fixed-header'
+import { useFixedHeader } from "vue-use-fixed-header";
 const headerRef = ref(null);
 const { styles } = useFixedHeader(headerRef);
 
 const items = [
-  { name: "Inicio", path: "/", icon: "solar:home-smile-outline" },
-  {
-    name: "Proyectos",
-    path: "/projects",
-    icon: "solar:folder-with-files-outline",
-  },
-/*  
+	{ name: "Inicio", path: "/", icon: "solar:home-smile-outline" },
+	{
+		name: "Proyectos",
+		path: "/projects",
+		icon: "solar:folder-with-files-outline",
+	},
+	/*  
   { name: "Lab", path: "/lab", icon: "heroicons:beaker" },
   */
-  // {
-  //   name: "Bookmarks",
-  //   path: "/bookmarks",
-  //   icon: "solar:bookmark-linear",
-  // },
+	// {
+	//   name: "Bookmarks",
+	//   path: "/bookmarks",
+	//   icon: "solar:bookmark-linear",
+	// },
 ];
 </script>

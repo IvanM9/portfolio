@@ -1,7 +1,7 @@
 {
-  "name": "Carface",
-  "url": "/info-projects/carface",
-  "description": "Sistema web para control de acceso a vehículos en estacionamientos",
-  "thumbnail": "/projects/feedful.png",
-  "status": "Active"
+	"name": "Carface",
+	"url": "/info-projects/carface",
+	"description": "Sistema web para control de acceso a vehículos en estacionamientos",
+	"thumbnail": "/projects/feedful.png",
+	"status": "Active"
 }

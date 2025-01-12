@@ -23,9 +23,9 @@
 
 <script setup>
 defineProps({
-  project: {
-    type: Object,
-    required: true,
-  },
+	project: {
+		type: Object,
+		required: true,
+	},
 });
 </script>
