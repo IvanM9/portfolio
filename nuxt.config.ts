@@ -7,10 +7,14 @@ export default defineNuxtConfig({
 		"@nuxtjs/fontaine",
 		"@nuxt/image",
 		"@nuxt/content",
-		"@nuxthq/studio",
 		"@vueuse/nuxt",
 		"@nuxt/icon",
+		"@vercel/analytics/nuxt",
 	],
+
+	srcDir: ".",
+
+	css: ["~/assets/css/main.css"],
 
 	icon: {
 		serverBundle: {
@@ -33,8 +37,12 @@ export default defineNuxtConfig({
 	},
 
 	content: {
-		highlight: {
-			theme: "github-dark",
+		build: {
+			markdown: {
+				highlight: {
+					theme: "github-dark",
+				},
+			},
 		},
 	},
 

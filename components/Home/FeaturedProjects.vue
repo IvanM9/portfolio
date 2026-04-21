@@ -15,7 +15,7 @@
         label="Todos los proyectos &rarr;"
         to="/projects"
         variant="link"
-        color="gray"
+        color="neutral"
       />
     </div>
   </div>
@@ -23,6 +23,6 @@
 
 <script lang="ts" setup>
 const { data: projects } = await useAsyncData("projects-home", () =>
-	queryContent("/projects").limit(3).find(),
+	queryCollection("projects").order("stem", "ASC").limit(3).all(),
 );
 </script>

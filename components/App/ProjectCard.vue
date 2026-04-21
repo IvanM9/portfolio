@@ -14,9 +14,9 @@
     ></div>
     <UAvatar
       :src="project.thumbnail"
-      :ui="{ rounded: 'rounded z-10 relative' }"
       size="md"
       :alt="project.name"
+      :ui="{ root: 'rounded z-10 relative' }"
     />
   </NuxtLink>
 </template>

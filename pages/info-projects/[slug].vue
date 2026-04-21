@@ -3,26 +3,23 @@
     <div
       class="prose dark:prose-invert prose-blockquote:not-italic prose-pre:bg-gray-900 prose-img:ring-1 prose-img:ring-gray-200 dark:prose-img:ring-white/10 prose-img:rounded-lg"
     >
-      <ContentDoc v-slot="{ doc }" tag="article">
-        <article>
-          <h1>{{ doc.title }}</h1>
-          <ContentRenderer :value="doc" />
-        </article>
-      </ContentDoc>
+      <article v-if="doc">
+        <h1>{{ doc.title }}</h1>
+        <ContentRenderer :value="doc" />
+      </article>
     </div>
   </main>
 </template>
 <script setup>
 const route = useRoute();
 const { slug } = route.params;
-// useSeoMeta({
-//   ogImage: `https://fayazahmed.com/articles/${slug}.png`,
-//   twitterCard: "summary_large_image",
-//   articleAuthor: "Fayaz Ahmed",
-// });
+
+const { data: doc } = await useAsyncData(`info-project-${slug}`, () =>
+	queryCollection("infoProjects").path(`/info-projects/${slug}`).first(),
+);
+
 useSeoMeta({
-	title: `${slug} | Iván Manzaba`,
-	// description,
+	title: `${doc.value?.title || slug} | Iván Manzaba`,
 });
 </script>
 <style>

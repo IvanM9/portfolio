@@ -20,6 +20,6 @@ useSeoMeta({
 });
 
 const { data: projects } = await useAsyncData("projects-all", () =>
-	queryContent("/projects").find(),
+	queryCollection("projects").order("stem", "ASC").all(),
 );
 </script>
