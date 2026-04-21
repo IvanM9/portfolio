@@ -3,9 +3,9 @@
     <NuxtLoadingIndicator color="#14b8a6" />
     <AppNavbar />
     <div class="h-32"></div>
-    <UContainer>
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
       <NuxtPage />
-    </UContainer>
+    </div>
     <div class="h-32"></div>
     <AppFooter />
   </UApp>
