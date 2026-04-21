@@ -12,10 +12,11 @@
     </div>
     <div class="flex items-center justify-center mt-6 text-sm">
       <UButton
-        label="Todos los proyectos &rarr;"
+        label="Todos los proyectos"
         to="/projects"
         variant="link"
-        color="neutral"
+        color="primary"
+        trailing-icon="solar:arrow-right-linear"
       />
     </div>
   </div>

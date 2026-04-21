@@ -8,15 +8,17 @@
         :to="link.url"
         target="_blank"
         external
+        rel="noopener"
+        :aria-label="`Abrir ${link.name} en una pestaña nueva`"
         class="flex items-end gap-4 dark:hover:text-gray-300 group"
       >
         <span class="text-sm">
           {{ link.name }}
         </span>
         <div
-          class="flex-1 border-b border-dashed border-gray-300 dark:border-gray-800 group-hover:border-gray-700"
+          class="flex-1 border-b border-dashed border-gray-300 dark:border-gray-800 group-hover:border-gray-700 transition-colors"
         ></div>
-        <Icon :name="link.icon" class="w-6 h-6"></Icon>
+        <Icon :name="link.icon" class="w-6 h-6" aria-hidden="true"></Icon>
       </NuxtLink>
     </div>
   </div>
@@ -31,7 +33,7 @@ const links = [
 	},
 	{
 		name: "Linkedin",
-		url: "https://www.linkedin.com/in/iván-manzaba",
+		url: "https://www.linkedin.com/in/iv%C3%A1n-manzaba",
 		icon: "mdi:linkedin",
 	},
 	{

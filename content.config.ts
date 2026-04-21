@@ -12,6 +12,7 @@ export default defineContentConfig({
 				thumbnail: z.string(),
 				status: z.string().optional(),
 				opensource: z.boolean().optional(),
+				tags: z.array(z.string()).optional(),
 			}),
 		}),
 
