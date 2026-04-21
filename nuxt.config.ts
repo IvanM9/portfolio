@@ -7,10 +7,14 @@ export default defineNuxtConfig({
 		"@nuxtjs/fontaine",
 		"@nuxt/image",
 		"@nuxt/content",
-		"@nuxthq/studio",
 		"@vueuse/nuxt",
 		"@nuxt/icon",
+		"@vercel/analytics/nuxt",
 	],
+
+	srcDir: ".",
+
+	css: ["~/assets/css/main.css"],
 
 	icon: {
 		serverBundle: {
@@ -29,12 +33,22 @@ export default defineNuxtConfig({
 				class: "antialiased bg-gray-50 dark:bg-black min-h-screen",
 			},
 			link: [{ rel: "icon", type: "image/x-icon", href: "/avatar.jpg" }],
+			meta: [
+				{ property: "og:image", content: "/avatar.jpg" },
+				{ property: "og:type", content: "website" },
+				{ property: "og:locale", content: "es_ES" },
+				{ name: "twitter:card", content: "summary" },
+			],
 		},
 	},
 
 	content: {
-		highlight: {
-			theme: "github-dark",
+		build: {
+			markdown: {
+				highlight: {
+					theme: "github-dark",
+				},
+			},
 		},
 	},
 

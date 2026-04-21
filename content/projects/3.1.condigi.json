@@ -3,5 +3,6 @@
 	"url": "/info-projects/condigi",
 	"description": "Una aplicación web para la gestión y generación de contratos digitales mediante Inteligencia Artificial Generativa",
 	"thumbnail": "/projects/feedful.png",
-	"status": "Active"
+	"status": "Active",
+	"tags": ["Nuxt", "NestJS", "IA Generativa"]
 }

@@ -4,5 +4,6 @@
 	"description": "Una aplicación web innovadora para profesores y estudiantes",
 	"thumbnail": "/projects/logspot.png",
 	"status": "WIP",
-	"opensource": false
+	"opensource": false,
+	"tags": ["Nuxt", "NestJS", "PostgreSQL"]
 }

@@ -1,16 +1,16 @@
 <template>
-  <Analytics />
-  <NuxtLoadingIndicator color="#14b8a6" />
-  <AppNavbar />
-  <div class="h-32"></div>
-  <UContainer>
-    <NuxtPage />
-  </UContainer>
-  <div class="h-32"></div>
-  <AppFooter />
+  <UApp>
+    <NuxtLoadingIndicator color="#14b8a6" />
+    <AppNavbar />
+    <div class="h-20 sm:h-28"></div>
+    <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+      <NuxtPage />
+    </div>
+    <div class="h-20 sm:h-28"></div>
+    <AppFooter />
+  </UApp>
 </template>
 <script setup lang="ts">
-import { Analytics } from '@vercel/analytics/nuxt';
 </script>
 <style>
 .page-enter-active,

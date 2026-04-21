@@ -11,7 +11,7 @@
           <UAvatar
             :src="getThumbnail(bookmark.url)"
             :alt="bookmark.label"
-            :ui="{ rounded: 'rounded-md' }"
+            :ui="{ root: 'rounded-md' }"
           />
           <p class="truncate text-gray-700 dark:text-gray-200">
             {{ bookmark.label }}
@@ -30,7 +30,7 @@
 const description =
 	"Awesome things I've found on the internet. This page is still WIP, I want to add search like bmrks.com";
 useSeoMeta({
-	title: "Bookmarks | Fayaz Ahmed",
+	title: "Bookmarks | Ivan Manzaba",
 	description,
 });
 

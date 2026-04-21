@@ -7,7 +7,7 @@
       <span class="sr-only">{{ targetNumber }}</span
       >+
     </span>
-    <UButton color="white" @click="startCounter" class="mt-4" size="xs">
+    <UButton color="neutral" variant="ghost" @click="startCounter" class="mt-4" size="xs">
       Start Counter
     </UButton>
     <p class="text-xs mt-2 text-gray-500">

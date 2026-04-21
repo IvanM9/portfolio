@@ -13,18 +13,13 @@
         label="All Articles &rarr;"
         to="/articles"
         variant="link"
-        color="gray"
+        color="neutral"
       />
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-const { data: articles } = await useAsyncData("articles-home", () =>
-	queryContent("/articles")
-		.sort({ published: -1 })
-		.limit(3)
-		.only(["title", "description", "published", "slug", "_path"])
-		.find(),
-);
+// Coleccion "articles" no existe - componente deshabilitado
+const articles = ref([]);
 </script>

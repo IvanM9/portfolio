@@ -4,5 +4,6 @@
 	"description": "Con este sistema web se pretende mejorar la atención de terapias de los pacientes de la ciudad de Quevedo.",
 	"thumbnail": "/projects/feedbackjar.png",
 	"status": "WIP",
-	"opensource": true
+	"opensource": true,
+	"tags": ["Nuxt", "NestJS", "PostgreSQL"]
 }

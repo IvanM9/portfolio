@@ -1,31 +1,68 @@
 <template>
   <NuxtLink
-    class="flex items-end gap-4 group p-2 -m-2 rounded-lg"
+    class="flex items-start gap-4 group p-3 -mx-3 rounded-lg transition-colors hover:bg-gray-100/60 dark:hover:bg-gray-900/40"
     :to="project.url"
   >
-    <div class="max-w-sm">
-      <h3 class="text-sm font-medium group-hover:text-primary-600">
-        {{ project.name }}
-      </h3>
-      <p class="text-gray-400 text-sm">{{ project.description }}</p>
-    </div>
-    <div
-      class="flex-1 border-b border-dashed border-gray-300 dark:border-gray-800 group-hover:border-gray-700"
-    ></div>
     <UAvatar
       :src="project.thumbnail"
-      :ui="{ rounded: 'rounded z-10 relative' }"
-      size="md"
+      size="lg"
       :alt="project.name"
+      :ui="{ root: 'rounded-lg z-10 relative shrink-0' }"
     />
+    <div class="flex-1 min-w-0 space-y-1">
+      <div class="flex items-center gap-2 flex-wrap">
+        <h3 class="text-sm font-semibold text-gray-800 dark:text-gray-100 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+          {{ project.name }}
+        </h3>
+        <Icon
+          v-if="project.opensource"
+          name="mdi:github"
+          class="w-4 h-4 text-gray-400"
+          aria-label="Proyecto open source"
+        />
+        <UBadge
+          v-if="project.status"
+          :color="statusColor"
+          variant="subtle"
+          size="xs"
+        >
+          {{ project.status }}
+        </UBadge>
+      </div>
+      <p class="text-gray-500 dark:text-gray-400 text-sm leading-snug">
+        {{ project.description }}
+      </p>
+      <div
+        v-if="project.tags?.length"
+        class="flex flex-wrap gap-1.5 pt-1"
+      >
+        <UBadge
+          v-for="tag in project.tags"
+          :key="tag"
+          color="neutral"
+          variant="soft"
+          size="xs"
+        >
+          {{ tag }}
+        </UBadge>
+      </div>
+    </div>
   </NuxtLink>
 </template>
 
 <script setup>
-defineProps({
+const props = defineProps({
 	project: {
 		type: Object,
 		required: true,
 	},
+});
+
+const statusColor = computed(() => {
+	const s = (props.project.status || "").toLowerCase();
+	if (s === "active") return "success";
+	if (s === "wip") return "warning";
+	if (s === "archived" || s === "inactive") return "neutral";
+	return "primary";
 });
 </script>

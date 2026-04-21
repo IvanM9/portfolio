@@ -12,8 +12,8 @@
           <UButton
             @click="tab = 'preview'"
             label="Preview"
-            variant="soft"
-            color="white"
+            variant="ghost"
+            color="neutral"
             size="xs"
             class="relative hover:bg-gray-100 hover:text-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-300"
             :class="{ 'active-tab': tab === 'preview' }"
@@ -21,8 +21,8 @@
           <UButton
             @click="tab = 'code'"
             label="Code"
-            variant="soft"
-            color="white"
+            variant="ghost"
+            color="neutral"
             size="xs"
             class="relative hover:bg-gray-100 hover:text-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-300"
             :class="{ 'active-tab': tab === 'code' }"
@@ -31,8 +31,8 @@
             v-if="showUsageTab"
             @click="tab = 'usage'"
             label="Usage"
-            variant="soft"
-            color="white"
+            variant="ghost"
+            color="neutral"
             size="xs"
             class="relative hover:bg-gray-100 hover:text-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-300"
             :class="{ 'active-tab': tab === 'usage' }"
@@ -41,8 +41,8 @@
             v-if="showCreditTab"
             @click="tab = 'credit'"
             label="Credits"
-            variant="soft"
-            color="white"
+            variant="ghost"
+            color="neutral"
             size="xs"
             class="relative hover:bg-gray-100 hover:text-gray-600 dark:hover:bg-gray-800 dark:hover:text-gray-300"
             :class="{ 'active-tab': tab === 'credit' }"
@@ -82,6 +82,7 @@ const tab = ref("preview");
 </script>
 
 <style scoped>
+@reference "~/assets/css/main.css";
 .active-tab {
   @apply after:content-[''] after:absolute after:w-full after:h-0.5 after:bg-primary-500 after:bottom-[-9px] after:left-0 after:pointer-events-none;
 }

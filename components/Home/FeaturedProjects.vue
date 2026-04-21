@@ -12,10 +12,11 @@
     </div>
     <div class="flex items-center justify-center mt-6 text-sm">
       <UButton
-        label="Todos los proyectos &rarr;"
+        label="Todos los proyectos"
         to="/projects"
         variant="link"
-        color="gray"
+        color="primary"
+        trailing-icon="solar:arrow-right-linear"
       />
     </div>
   </div>
@@ -23,6 +24,6 @@
 
 <script lang="ts" setup>
 const { data: projects } = await useAsyncData("projects-home", () =>
-	queryContent("/projects").limit(3).find(),
+	queryCollection("projects").order("stem", "ASC").limit(3).all(),
 );
 </script>
